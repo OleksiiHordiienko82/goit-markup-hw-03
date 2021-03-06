@@ -8,6 +8,8 @@
   --backgrouns-secondary-color: #2f303a;
   --primary-background-color: #e5e5e5;
   --third-background-color: #f5f4fa;
+  --section-pt: 94px;
+  --section-pb: 94px;
 }
 
 body {
@@ -39,6 +41,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 ul,
@@ -121,8 +124,10 @@ img {
 
 /* ============= HEADER ============= */
 
-/*.header {
-}*/
+.header {
+  padding-top: 32px;
+  padding-bottom: 18px;
+}
 
 .header .container {
   display: flex;
@@ -268,11 +273,22 @@ img {
 }
 .team {
   background: var(--third-background-color);
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
 }
 
 .description-team {
   font-size: 16px;
   line-height: 1.18;
+}
+
+.about-us-title {
+  margin-bottom: 59px;
+}
+
+.list-team {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* =============END OUR TEAM ============= */
