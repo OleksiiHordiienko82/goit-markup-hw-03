@@ -253,6 +253,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 20px;
 
   color: var(--basic-headers-color);
 }
@@ -269,6 +270,41 @@ img {
 .description-cards {
   font-size: 16px;
   line-height: 30px;
+}
+
+.list-about {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.list-about-text {
+  flex-basis: calc (100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.img-about-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.img-about {
+  flex-basis: calc (100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.about-us-title {
+  margin-bottom: 33px;
+}
+
+.about-images {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* ============= END ABOUT ============= */
 
@@ -317,11 +353,14 @@ img {
   text-align: center;
   background-color: white;
 }
+
 /* =============END OUR TEAM ============= */
 
 /* =============FOOTER============= */
+
 .footer {
   background-color: var(--backgrouns-secondary-color);
+  padding: 60px;
 }
 
 .footer-address {
@@ -335,4 +374,13 @@ img {
   font-size: 14px;
   line-height: 1.71;
 }
+
+.address-list {
+  margin-top: 30px;
+}
+
+.address-link {
+  margin-bottom: 20px;
+}
+
 /* =============END FOOTER ============= */
