@@ -334,6 +334,33 @@ img {
   padding-bottom: 50px;
 }
 
+.list-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.cards-item {
+  flex-basis: calc (100% / 9 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.cards-list-content-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+.cards-title {
+  margin-bottom: 14px;
+}
+
+.cards-container {
+  padding-bottom: 94px;
+}
+
 /* ============= END Projects ============= */
 
 /* ============= OUR TEAM ============= */
@@ -407,8 +434,7 @@ img {
   margin-top: 30px;
 }
 
-.address-link {
+.address-link:not(:last-child) {
   margin-bottom: 20px;
 }
-
 /* =============END FOOTER ============= */
