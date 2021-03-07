@@ -24,6 +24,7 @@ body {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 h1,
@@ -175,10 +176,6 @@ img {
 .link-address:hover,
 .link-address:focus {
   color: var(--accent-color);
-}
-
-.address {
-  margin-left: auto;
 }
 
 .link-address:not(:last-child) {
