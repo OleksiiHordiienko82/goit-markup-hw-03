@@ -120,22 +120,10 @@ img {
   display: flex;
   justify-content: center;
   margin-left: -8px;
-  margin-top: -8px;
 }
 
 .modal-button-item {
-  flex-basis: calc (100% / 5 - 8px);
   margin-left: 8px;
-  margin-top: 8px;
-}
-
-.about-us-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-
-  color: var(--basic-headers-color);
 }
 
 /* ============= END COMPONENTS ============= */
@@ -143,8 +131,9 @@ img {
 /* ============= HEADER ============= */
 
 .header {
-  padding-top: 32px;
-  padding-bottom: 18px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -210,12 +199,10 @@ img {
 /* ============= HERO ============= */
 
 .hero-btn {
+  display: block;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
-
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
@@ -279,6 +266,7 @@ img {
 
 .about {
   background: var(--primary-background-color);
+  padding-top: 94px;
 }
 
 .description-about {
@@ -295,13 +283,10 @@ img {
   display: flex;
   justify-content: space-between;
   margin-left: -30px;
-  margin-top: -30px;
 }
 
 .list-about-text {
-  flex-basis: calc (100% / 4 - 30px);
   margin-left: 30px;
-  margin-top: 30px;
 }
 
 .img-about-list {
@@ -318,7 +303,13 @@ img {
 }
 
 .about-us-title {
-  margin-bottom: 33px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  color: var(--basic-headers-color);
+  margin-bottom: 50px;
 }
 
 .about-images {
@@ -342,7 +333,6 @@ img {
 }
 
 .cards-item {
-  flex-basis: calc (100% / 9 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -384,22 +374,14 @@ img {
   line-height: 1.18;
 }
 
-.about-us-title {
-  margin-bottom: 59px;
-}
-
 .list-team {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -30px;
-  /*justify-content: space-between;*/
 }
 
 .img-team {
-  flex-basis: calc (100% / 4 - 30px);
   margin-left: 30px;
-  margin-top: 30px;
 }
 
 .team-list-content-wrapper {
@@ -415,7 +397,7 @@ img {
 
 .footer {
   background-color: var(--backgrouns-secondary-color);
-  padding: 60px;
+  padding: 60px 0;
 }
 
 .footer-address {
