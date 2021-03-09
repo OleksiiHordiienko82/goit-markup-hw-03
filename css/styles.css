@@ -25,6 +25,7 @@ body {
 .address {
   font-style: normal;
   margin-left: auto;
+  display: flex;
 }
 
 h1,
@@ -111,10 +112,9 @@ img {
 .list-modal-button {
   display: flex;
   justify-content: center;
-  margin-left: -8px;
 }
 
-.modal-button-item {
+.modal-button-item:not(:first-child) {
   margin-left: 8px;
 }
 
@@ -178,7 +178,7 @@ img {
   color: var(--accent-color);
 }
 
-.link-address:not(:last-child) {
+.link-address-list:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -221,6 +221,8 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  max-width: 696px;
+  margin: 0 auto;
 
   color: #ffffff;
 }
@@ -255,6 +257,10 @@ img {
 .about {
   background: var(--primary-background-color);
   padding-top: var(--section-pt);
+}
+
+.about-us {
+  background: var(--primary-background-color);
 }
 
 .description-about {
@@ -406,11 +412,17 @@ img {
   line-height: 1.71;
 }
 
-.address-list {
+/*.address-list {
   margin-top: 30px;
-}
+}*/
 
 .address-link:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 9px;
 }
+
+.logo-footer {
+  display: block;
+  margin-bottom: 30px;
+}
+
 /* =============END FOOTER ============= */
